@@ -17,7 +17,7 @@ main > section {
     justify-content: space-between;
 	align-items: baseline;
 	padding: 1em;
-	background-color: #1d1818;
+	background-color: #0c8d57;
 	color: #eee;
 	display: flex;
 }
@@ -66,21 +66,54 @@ nav ul a:hover {
     padding:0 20px 0 20px;
 }
 
+
+
+
 #ClimateChange ul{
     display: flex;
     flex: column;
-    font-size: 1.5em;
+    font-size: 1em;
     list-style: none;
 }
 #tip{
     width: 600px;
     margin: 1em;
     padding: 1em;
-    background-color: rgba(76, 235, 70, 0.747);
-    display:flex;
-    flex-direction: column;
+    background-color: rgb(110, 236, 110);
     min-height: 600px;
     min-width:400px;
+    border: solid;
+    border-color: #0c8d57;
+    border-width: 8px;
+    
+}
+
+#tip ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+
+}
+#tip h3{
+    font-size: 2em;
+    margin: 10px 0 20px 0;
+}
+#tip li{
+    display: grid;
+    grid-template-columns: 100px 250px;
+    grid-template-rows: 120px;
+}
+
+
+#tip ul a{
+    font-size: 1.2em;
+    padding: .4em;
+    font-weight: bold;
+}
+#tip ul a:hover {
+    color: #0e5f44;
 }
 
 
@@ -102,6 +135,7 @@ nav ul a:hover {
     display: flex;
 	justify-content: center;
     align-items: center;
+    padding: 0;
 
 }
 
@@ -132,4 +166,13 @@ nav ul a:hover {
 .card p{
 	margin: 1em;
 	
+}
+.card form{
+    margin:.5em;
+    padding: .1em;
+}
+
+#EnergyConsumption{
+  
+    color: green;
 }
